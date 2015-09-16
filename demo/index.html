@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;" charset="utf-8" />
+	<title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<h1>
+		デモサイト
+	</h1>
+	<div class="wrapper">
+		<div class="content">
+			<dl class="list">
+				<dt>ヤモリ１</dt>
+				<dd>志村けん</dd>
+			</dl>
+		</div>
+	</div>
+
+<!-- script content area -->
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.yamada.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$(function() {
+		$('.list').yamada();
+	});
+</script>
+<!-- /script content area -->
+</body>
+</html>
